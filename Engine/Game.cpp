@@ -32,6 +32,7 @@ Game::Game( MainWindow& wnd )
 
 void Game::Go()
 {
+	//Test change
 	gfx.BeginFrame();
 	UpdateModel();
 	ComposeFrame();
